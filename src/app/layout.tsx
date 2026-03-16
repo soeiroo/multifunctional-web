@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import "@/lib/suppress-warnings"; // Suppress R3F + Three@v183 dev warnings
 import "./globals.css";
 
 const geistSans = Geist({
